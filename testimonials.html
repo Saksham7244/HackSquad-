@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Testimonials - OnConf template</title>
+    <meta property="og:title" content="Testimonials - OnConf template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Source Sans Pro;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: true });
+    </script>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./testimonials.css" rel="stylesheet" />
+
+      <div class="testimonials-container">
+        <section class="testimonials-hero">
+          <div class="testimonials-background">
+            <img
+              alt="image"
+              src="public/circle-background.svg"
+              class="testimonials-image"
+            />
+            <img
+              alt="image"
+              src="public/line-background.svg"
+              class="testimonials-image01"
+            />
+          </div>
+          <header data-thq="thq-navbar" class="testimonials-navbar">
+            <h2 class="testimonials-text">OnConf</h2>
+            <div
+              data-thq="thq-navbar-nav"
+              data-role="Nav"
+              class="testimonials-desktop-menu"
+            >
+              <nav
+                data-thq="thq-navbar-nav-links"
+                data-role="Nav"
+                class="testimonials-nav"
+              >
+              <a href="index.html"><span class="navLink">Home</span></a>
+              <a href="about.html"><span class="navLink">About</span></a>
+              <a href="testimonials.html"><span class="navLink">Testimonials</span></a>
+              </nav>
+            </div>
+            <div data-thq="thq-burger-menu" class="testimonials-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="testimonials-icon">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+            <div data-thq="thq-mobile-menu" class="testimonials-mobile-menu">
+              <div
+                data-thq="thq-mobile-menu-nav"
+                data-role="Nav"
+                class="testimonials-nav1"
+              >
+                <div class="testimonials-container1">
+                  <h2 class="testimonials-text01">OnConf</h2>
+                  <div
+                    data-thq="thq-close-menu"
+                    class="testimonials-menu-close"
+                  >
+                    <svg viewBox="0 0 1024 1024" class="testimonials-icon02">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <nav
+                  data-thq="thq-mobile-menu-nav-links"
+                  data-role="Nav"
+                  class="testimonials-nav2"
+                >
+                  <span class="navLink testimonials-text02">About</span>
+                  <span class="navLink testimonials-text03">Features</span>
+                  <span class="navLink testimonials-text04">Pricing</span>
+                  <span class="navLink testimonials-text05">Team</span>
+                  <span class="navLink testimonials-text06">Blog</span>
+                </nav>
+                <div class="testimonials-button-container">
+                  <button class="testimonials-login button">Login</button>
+                  <button class="button testimonials-register">Register</button>
+                </div>
+                <div class="testimonials-icon-group">
+                  <div class="testimonials-icons">
+                    <svg
+                      viewBox="0 0 950.8571428571428 1024"
+                      class="testimonials-icon04"
+                    >
+                      <path
+                        d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                      ></path></svg
+                    ><svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="testimonials-icon06"
+                    >
+                      <path
+                        d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                      ></path></svg
+                    ><svg
+                      viewBox="0 0 602.2582857142856 1024"
+                      class="testimonials-icon08"
+                    >
+                      <path
+                        d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <img
+                alt="image"
+                src="public/quote-background.svg"
+                class="testimonials-background1"
+              />
+            </div>
+          </header>
+          <div class="testimonials-hero-content">
+            <h1 class="testimonials-text07">
+              <span class="testimonials-text08">Hear what our</span>
+              <br />
+              <span>clients say about us!</span>
+              <br />
+            </h1>
+            <div class="testimonials-caption"></div>
+          </div>
+        </section>
+        <section class="testimonials-black">
+          <section class="testimonials-quotes">
+            <div class="testimonials-row">
+              <img
+                alt="image"
+                src="public/quotes-1-1400w.png"
+                class="testimonials-image02"
+              />
+              <div class="testimonials-row1">
+                <div class="testimonials-details">
+                  <p class="testimonials-quote">
+                    “Crafted treasures, culture embraced, love it! “
+                  </p>
+                  <span class="testimonials-author">Chrissy White</span>
+                </div>
+                <img
+                  alt="image"
+                  src="public/quotes-2-700w.png"
+                  class="testimonials-image03"
+                />
+              </div>
+            </div>
+            <div class="testimonials-row2">
+              <div class="testimonials-details1">
+                <p class="testimonials-quote01">
+                  “Tradition revived in every purchase. Amazing!“
+                </p>
+                <span class="testimonials-author1">John Doe</span>
+              </div>
+              <img
+                alt="image"
+                src="public/quotes-3-400h.png"
+                class="testimonials-image04"
+              />
+              <div class="testimonials-details2">
+                <p class="testimonials-quote02">
+                  “Handmade bliss, heritage in my home. “
+                </p>
+                <span class="testimonials-author2">Jana Doe</span>
+              </div>
+            </div>
+          </section>
+          <section class="testimonials-testimonials">
+            <div class="testimonials-header">
+              <div class="testimonials-section-numeral">
+                <div class="testimonials-divide"></div>
+                <p class="testimonials-text12">01</p>
+              </div>
+              <div data-aos="fade-right" class="testimonials-heading">
+                <h2 class="testimonials-title">
+                  Don’t just take our word for it. Here’s what past attendees
+                  have to say:
+                </h2>
+              </div>
+            </div>
+            <div id="scrollbar" class="testimonials-quotes1">
+              <div class="testimonials-quote03">
+                <div class="testimonials-author3">
+                  <img
+                    alt="image"
+                    src="https://media.istockphoto.com/id/1311088144/photo/excited-black-african-american-man-having-a-video-call-on-smartphone-while-sitting-on-a-sofa.webp?b=1&s=170667a&w=0&k=20&c=eotqBIK8Lnr1_JcjkaO3ERsVOWbCjQeNg5oAvfuiSLE="
+                    class="testimonials-image05"
+                  />
+                  <div class="testimonials-details3">
+                    <span class="testimonials-name">Johnson Wilde</span>
+                    <span class="testimonials-handle">@thisisjohny</span>
+                  </div>
+                </div>
+                <p class="testimonials-quote04">
+                  “Crafted perfection, tradition in modernity.”
+                </p>
+              </div>
+              <div class="testimonials-quote05">
+                <div class="testimonials-author4">
+                  <img
+                    alt="image"
+                    src="https://images.unsplash.com/photo-1603771550805-abcf98e420e7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyfHxwb3RyYWl0fGVufDB8fHx8MTY3MTQ4NTk1Ng&amp;ixlib=rb-4.0.3&amp;w=200"
+                    class="testimonials-image06"
+                  />
+                  <div class="testimonials-details4">
+                    <span class="testimonials-name1">Chrissy White</span>
+                    <span class="testimonials-handle1">@chrissywhite</span>
+                  </div>
+                </div>
+                <p class="testimonials-quote06">
+                  “A loyal customer for the art, not just the craft.
+                  ”
+                </p>
+              </div>
+              <div class="testimonials-quote07">
+                <div class="testimonials-author5">
+                  <img
+                    alt="image"
+                    src="https://images.unsplash.com/photo-1669385917027-bf1654c2d16a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29uJTIwaW1hZ2VzfGVufDB8fDB8fHww"
+                    class="testimonials-image07"
+                  />
+                  <div class="testimonials-details5">
+                    <span class="testimonials-name2">Harry Potter</span>
+                    <span class="testimonials-handle2">@harrypotter</span>
+                  </div>
+                </div>
+                <p class="testimonials-quote08">
+                  “Preserving culture through every handcrafted gem.”
+                </p>
+              </div>
+              <div class="testimonials-quote09">
+                <div class="testimonials-author6">
+                  <img
+                    alt="image"
+                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVyc29uJTIwaW1hZ2VzfGVufDB8fDB8fHww"
+                    class="testimonials-image08"
+                  />
+                  <div class="testimonials-details6">
+                    <span class="testimonials-name3">Ginny Weasley</span>
+                    <span class="testimonials-handle3">@thisissginny</span>
+                  </div>
+                </div>
+                <p class="testimonials-quote10">
+                  “My home, adorned with tales of craftsmanship.”
+                </p>
+              </div>
+              <div class="testimonials-quote11">
+                <div class="testimonials-author7">
+                  <img
+                    alt="image"
+                    src="https://images.unsplash.com/photo-1621358989516-8b783a73c487?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVyc29uJTIwaW1hZ2VzfGVufDB8fDB8fHww"
+                    class="testimonials-image09"
+                  />
+                  <div class="testimonials-details7">
+                    <span class="testimonials-name4">Ron Weasley</span>
+                    <span class="testimonials-handle4">@ronny</span>
+                  </div>
+                </div>
+                <p class="testimonials-quote12">
+                  “Beyond satisfaction—each piece is a legacy.
+                  ”
+                </p>
+              </div>
+            </div>
+          </section>
+        </section>
+        <footer class="testimonials-footer">
+          <div class="testimonials-content">
+            <div class="testimonials-details8">
+              <h2 class="testimonials-title1">OnConf</h2>
+              <p class="testimonials-description">
+                Explore a curated collection of artisanal wonders, where craftsmanship meets creativity. Immerse yourself in a world of unique, handcrafted treasures meticulously crafted to elevate your lifestyle, bringing a touch of sophistication and charm to every corner of your home. Discover the beauty of authenticity and quality, and join us in celebrating the art of handmade excellence.
+              </p>
+            </div>
+            <div class="testimonials-socials">
+              <img alt="image" src="public/linkedin.svg" class="social" />
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="testimonials-link3"
+              >
+                <img
+                  alt="image"
+                  src="public/instagram.svg"
+                  class="testimonials-image11 social"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="testimonials-link4"
+              >
+                <img
+                  alt="image"
+                  src="public/twitter.svg"
+                  class="testimonials-image12 social"
+                />
+              </a>
+            </div>
+            <span class="testimonials-copyright">
+              Privacy — Terms &amp; Conditions — Code of Conduct © 2022 OnConf
+              All Rights Reserved
+            </span>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script>
+      document.body.addEventListener('mouseenter', function() {
+        var userInput = "Welcome to our Testimonials Page";
+        alert(userInput);
+      });
+    </script>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
